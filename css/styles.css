@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+}
+
+.logo-studio-top {
+  color: #2e2f42;
+}
+
+.head-link {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.head-link:hover,
+.head-link:focus {
+  color: #404bbf;
+}
+
+.mail-tel {
+  font-style: normal;
+}
+
+.contact-type {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-type:hover,
+.contact-type:focus {
+  color: #404bbf;
+}
+
+.sec-one {
+  background-color: #2e2f42;
+}
+
+.sec-one-title {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.but {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.but:hover,
+.but:focus {
+  background-color: #404bbf;
+}
+
+.sec-title {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.advantages-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-paragraph {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.sec-three {
+  background-color: #f4f4fd;
+}
+
+.sec-three p {
+  color: #434455;
+  line-height: 1.5;
+}
+
+.team-member {
+  background-color: #fff;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.member-paragraph {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.sec-four p {
+  color: #434455;
+  line-height: 1.5;
+}
+
+.project-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.project-paragraph {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.foot {
+  background-color: #2e2f42;
+}
+
+.logo-studio-bot {
+  color: #f4f4fd;
+}
+
+.foot-paragraph {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
