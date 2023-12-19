@@ -29,11 +29,11 @@ img {
   display: block;
 }
 
-header > .container {
+.container {
   display: flex;
-  width: 1440px;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -48,20 +48,19 @@ header > .container {
 .navigation-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
-.mail-tel .contact-list {
+.contact-list {
   display: flex;
   gap: 40px;
 }
 
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0;
+.mail {
+  margin-right: 40px;
+}
+.tel {
+  margin-right: 0;
 }
 
 .logo {
@@ -148,17 +147,15 @@ header > .container {
   padding-bottom: 120px;
 }
 
-.sec-two-title {
-  visibility: hidden;
-}
-
-.sec-title {
+.visually-hidden {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display: flex;
+  visibility: hidden;
 }
 
 .advantages-title {
@@ -173,6 +170,9 @@ header > .container {
 .advantages-list {
   display: flex;
   gap: 24px;
+}
+
+.advantages-list-item {
   width: calc((100%-3 * 24px) / 4);
 }
 
@@ -207,12 +207,12 @@ header > .container {
   display: flex;
   margin-top: 72px;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-member {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .member-info {
@@ -260,7 +260,7 @@ header > .container {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
+  column-gap: 24px;
   width: calc((100%-24px) / 5);
 }
 
