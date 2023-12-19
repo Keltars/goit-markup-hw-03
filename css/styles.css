@@ -9,8 +9,54 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+header > .container {
+  display: flex;
+  width: 1440px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+nav {
+  display: flex;
+}
+
+nav .navigation-list {
+  display: flex;
+  gap: 40px;
+}
+
+.mail-tel .contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: ;
+  margin-right: ;
 }
 
 .logo {
@@ -21,6 +67,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .logo-studio-top {
@@ -56,6 +103,8 @@ ul {
 
 .sec-one {
   background-color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .sec-one-title {
@@ -75,6 +124,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
 }
 
 .but:hover,
@@ -99,10 +149,17 @@ ul {
   color: #2e2f42;
 }
 
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100%-24px) / 3);
+}
+
 .advantages-paragraph {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 .sec-three {
@@ -112,6 +169,13 @@ ul {
 .sec-three p {
   color: #434455;
   line-height: 1.5;
+}
+
+.team-list {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+  width: calc((100%-24px) / 3);
 }
 
 .team-member {
@@ -124,17 +188,26 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
 }
 
 .member-paragraph {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 .sec-four p {
   color: #434455;
   line-height: 1.5;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: calc((100%-24px) / 5);
 }
 
 .project-name {
@@ -143,16 +216,30 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
 }
 
 .project-paragraph {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 .foot {
   background-color: #2e2f42;
+  display: flex;
+}
+
+.logo-bot {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  padding-top: 101.5px;
 }
 
 .logo-studio-bot {
@@ -163,4 +250,6 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 17.5px;
 }
