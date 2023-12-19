@@ -48,19 +48,18 @@ img {
 .navigation-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+}
+
+.navigation-list-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-list {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
-}
-
-.mail {
-  margin-right: 40px;
-}
-.tel {
-  margin-right: 0;
 }
 
 .logo {
@@ -261,7 +260,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  width: calc((100%-24px) / 5);
+  row-gap: 48px;
 }
 
 .project-list-item {
@@ -305,8 +304,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-studio-bot {
