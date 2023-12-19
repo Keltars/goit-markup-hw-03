@@ -16,22 +16,22 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
+            <nav class="menu">
                 <a class="logo" href="./index.html">Web<span class="logo-studio-top">Studio</span></a>
                 <ul class="navigation-list">
                     <li><a class="head-link" href="./index.html">Studio</a></li>
                     <li><a class="head-link" href="">Portfolio</a></li>
                     <li><a class="head-link" href="">Contacts</a></li>
                 </ul>
+                <address class="mail-tel">
+                    <ul class="contact-list">
+                        <li><a class="contact-type" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="contact-type" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
             </nav>
-            <address class="mail-tel">
-                <ul class="contact-list">
-                    <li><a class="contact-type" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="contact-type" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
         </div>
     </header>
 
@@ -46,7 +46,7 @@
 
         <section class="sec-two">
             <div class="container">
-                <h2 class="sec-title">Hidden Title</h2>
+                <h2 class="sec-two-title">Hidden Title</h2>
                 <ul class="advantages-list">
                     <li class="strategy-container">
                         <h3 class="advantages-title">Strategy</h3>
@@ -81,27 +81,35 @@
 
         <section class="sec-three">
             <div class="container">
-                <h2 class="sec-title">Our Team</h2>
+                <h2 class="sec-three-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-member">
                         <img src="./images/mark.jpg" alt="Mark Guerrero" width="264">
-                        <h3 class="member-name">Mark Guerrero</h3>
-                        <p class="member-paragraph">Product Designer</p>
+                        <div class="member-info">
+                            <h3 class="member-name">Mark Guerrero</h3>
+                            <p class="member-paragraph">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-member">
                         <img src="./images/tom.jpg" alt="Tom Ford" width="264">
-                        <h3 class="member-name">Tom Ford</h3>
-                        <p class="member-paragraph">Frontend Developer</p>
+                        <div class="member-info">
+                            <h3 class="member-name">Tom Ford</h3>
+                            <p class="member-paragraph">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-member">
                         <img src="./images/camila.jpg" alt="Camila Garcia" width="264">
-                        <h3 class="member-name">Camila Garcia</h3>
-                        <p class="member-paragraph">Marketing</p>
+                        <div class="member-info">
+                            <h3 class="member-name">Camila Garcia</h3>
+                            <p class="member-paragraph">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-member">
                         <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264">
-                        <h3 class="member-name">Daniel Wilson</h3>
-                        <p class="member-paragraph">UI Designer</p>
+                        <div class="member-info">
+                            <h3 class="member-name">Daniel Wilson</h3>
+                            <p class="member-paragraph">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -109,37 +117,49 @@
 
         <section class="sec-four">
             <div class="container">
-                <h2 class="sec-title">Our Portfolio</h2>
+                <h2 class="sec-four-title">Our Portfolio</h2>
                 <ul class="project-list">
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/banking-app.jpg" alt="Banking App" width="360">
-                        <h3 class="project-name">Banking App</h3>
-                        <p class="project-paragraph">App</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Banking App</h3>
+                            <p class="project-paragraph">App</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360">
-                        <h3 class="project-name">Cashless Payment</h3>
-                        <p class="project-paragraph">Marketing</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Cashless Payment</h3>
+                            <p class="project-paragraph">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/meditation-app.jpg" alt="Meditation App" width="360">
-                        <h3 class="project-name">Meditation App</h3>
-                        <p class="project-paragraph">App</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Meditation App</h3>
+                            <p class="project-paragraph">App</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360">
-                        <h3 class="project-name">Taxi Service</h3>
-                        <p class="project-paragraph">Marketing</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Taxi Service</h3>
+                            <p class="project-paragraph">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360">
-                        <h3 class="project-name">Screen Illustrations</h3>
-                        <p class="project-paragraph">Design</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Screen Illustrations</h3>
+                            <p class="project-paragraph">Design</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="project-list-item">
                         <img src="./images/online-courses.jpg" alt="Online Courses" width="360">
-                        <h3 class="project-name">Online Courses</h3>
-                        <p class="project-paragraph">Marketing</p>
+                        <div class="project-info">
+                            <h3 class="project-name">Online Courses</h3>
+                            <p class="project-paragraph">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
